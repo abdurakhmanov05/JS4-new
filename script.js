@@ -63,9 +63,9 @@ let female = []
 
 students.filter(student => {
     if(student.gender === 'male') {
-        male.push(students.name)
+        male.push(student.name)
     } else {
-        female.push(students.name)
+        female.push(student.name)
     }
 })
 
